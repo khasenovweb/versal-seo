@@ -1,0 +1,105 @@
+{% set title = 'Главная' %}
+
+{% extends 'layouts/_main.html' %}
+
+{% block content %}
+
+
+<section class="sec portfolio gray">
+    <div class="container">
+        <div class="breadcrumbs">
+            <!-- Breadcrumb NavXT 6.6.0 -->
+            <span property="itemListElement" typeof="ListItem">
+                <a property="item" typeof="WebPage" title="Перейти к Альтиус." href="https://altius-rf.ru" class="home">
+                    <span property="name">Главная</span>
+                </a>
+                <meta property="position" content="1">
+            </span>
+            <span> » </span>
+            <span property="itemListElement" typeof="ListItem">
+                <a property="item" typeof="WebPage" title="Перейти к Объекты." href="https://altius-rf.ru/objects" class="post post-objects-archive">
+                    <span property="name">Объекты</span>
+                </a>
+                <meta property="position" content="2">
+            </span>
+            <span> » </span>
+            <span property="itemListElement" typeof="ListItem">
+                <span property="name" class="post post-objects current-item">Pika L</span>
+                <meta property="url" content="https://altius-rf.ru/objects/kapitalnyj-remont-kazanskoj-tjec-1">
+                <meta property="position" content="3">
+            </span>
+        </div>
+        <h1 class="page__title">Наши готовые работы</h1>
+        <div class="portfolio__items">
+            <!-- portfolio__item -->
+            <div class="portfolio__item">
+                <div class="portfolio__item__info">
+                    <div class="portfolio__item__info__col">
+                        <div class="portfolio__item__info__col__label">Компания:</div>
+                        <div class="portfolio__item__info__col__val">« RIVER ONE »</div>
+                    </div>
+                    <div class="portfolio__item__info__col">
+                        <div class="portfolio__item__info__col__label">Тип вывески:</div>
+                        <div class="portfolio__item__info__col__val">Оформление сети lounge bar</div>
+                    </div>
+                    <div class="portfolio__item__info__col">
+                        <div class="portfolio__item__info__col__label">Срок изготовления:</div>
+                        <div class="portfolio__item__info__col__val red">7 дней</div>
+                    </div>
+                    <div class="portfolio__item__info__col">
+                        <div class="portfolio__item__info__col__label">Стоимость:</div>
+                        <div class="portfolio__item__info__col__val red underline">Узнать</div>
+                    </div>
+                </div>
+                <div class="portfolio__item__photos">
+                    <a data-fancybox="1" data-src="img/1.jpg" href="" class="portfolio__item__photo" style="background-image: url(img/1.jpg);"></a>
+                    <a data-fancybox="1" data-src="img/2.jpg" href="" class="portfolio__item__photo" style="background-image: url(img/2.jpg);"></a>
+                    <a data-fancybox="1" data-src="img/3.jpg" href="" class="portfolio__item__photo" style="background-image: url(img/3.jpg);"></a>
+                    <a data-fancybox="1" data-src="img/4.jpg" href="" class="portfolio__item__photo" style="background-image: url(img/4.jpg);"></a>
+                    <a data-fancybox="1" data-src="img/5.jpg" href="" class="portfolio__item__photo" style="background-image: url(img/5.jpg);"></a>
+                    <a data-fancybox="1" data-src="img/6.jpg" href="" class="portfolio__item__photo" style="background-image: url(img/6.jpg);"></a>
+                </div>
+                <div class="portfolio__item__footer">
+                    <div class="portfolio__item__footer__link">Хочу подобную вывеску</div>
+                </div>
+            </div>
+            <!-- END portfolio__item -->
+            <!-- portfolio__item -->
+            <div class="portfolio__item">
+                <div class="portfolio__item__info">
+                    <div class="portfolio__item__info__col">
+                        <div class="portfolio__item__info__col__label">Компания:</div>
+                        <div class="portfolio__item__info__col__val">« RIVER ONE »</div>
+                    </div>
+                    <div class="portfolio__item__info__col">
+                        <div class="portfolio__item__info__col__label">Тип вывески:</div>
+                        <div class="portfolio__item__info__col__val">Оформление сети lounge bar</div>
+                    </div>
+                    <div class="portfolio__item__info__col">
+                        <div class="portfolio__item__info__col__label">Срок изготовления:</div>
+                        <div class="portfolio__item__info__col__val red">7 дней</div>
+                    </div>
+                    <div class="portfolio__item__info__col">
+                        <div class="portfolio__item__info__col__label">Стоимость:</div>
+                        <div class="portfolio__item__info__col__val red underline">Узнать</div>
+                    </div>
+                </div>
+                <div class="portfolio__item__photos">
+                    <a href="" class="portfolio__item__photo" style="background-image: url(img/1.jpg);"></a>
+                    <a href="" class="portfolio__item__photo" style="background-image: url(img/2.jpg);"></a>
+                    <a href="" class="portfolio__item__photo" style="background-image: url(img/3.jpg);"></a>
+                    <a href="" class="portfolio__item__photo" style="background-image: url(img/4.jpg);"></a>
+                    <a href="" class="portfolio__item__photo" style="background-image: url(img/5.jpg);"></a>
+                    <a href="" class="portfolio__item__photo" style="background-image: url(img/6.jpg);"></a>
+                </div>
+                <div class="portfolio__item__footer">
+                    <div class="portfolio__item__footer__link">Хочу подобную вывеску</div>
+                </div>
+            </div>
+            <!-- END portfolio__item -->
+        </div>
+    </div>
+</section>
+
+
+{% endblock %}

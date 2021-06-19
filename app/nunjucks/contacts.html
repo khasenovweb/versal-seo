@@ -1,0 +1,85 @@
+{% set title = 'Главная' %}
+
+{% extends 'layouts/_main.html' %}
+
+{% block content %}
+
+
+<section class="sec contacts">
+    <div class="container">
+        <div class="contacts__content">
+            <div class="breadcrumbs">
+                <!-- Breadcrumb NavXT 6.6.0 -->
+                <span property="itemListElement" typeof="ListItem">
+                    <a property="item" typeof="WebPage" title="Перейти к Альтиус." href="https://altius-rf.ru" class="home">
+                        <span property="name">Главная</span>
+                    </a>
+                    <meta property="position" content="1">
+                </span>
+                <span> » </span>
+                <span property="itemListElement" typeof="ListItem">
+                    <a property="item" typeof="WebPage" title="Перейти к Объекты." href="https://altius-rf.ru/objects" class="post post-objects-archive">
+                        <span property="name">Объекты</span>
+                    </a>
+                    <meta property="position" content="2">
+                </span>
+                <span> » </span>
+                <span property="itemListElement" typeof="ListItem">
+                    <span property="name" class="post post-objects current-item">Pika L</span>
+                    <meta property="url" content="https://altius-rf.ru/objects/kapitalnyj-remont-kazanskoj-tjec-1">
+                    <meta property="position" content="3">
+                </span>
+            </div>
+            <h1 class="page__title">Контакты</h1>
+            <div class="contacts__cols">
+                <div class="contacts__col">
+                    <div class="contacts__col__items">
+                        <div class="contacts__col__item">
+                            <div class="contacts__col__item__label">Телефон:</div>
+                            <a href="tel:+7 (995) 112-6679" class="contacts__col__item__main">
+                                <img src="img/phone.svg" alt="" class="contacts__col__item__main__icon">
+                                <div class="contacts__col__item__main__title">+7 (995) 112-6679</div>
+                            </a>
+                            <div class="contacts__col__item__desc">отдел продаж</div>
+                            <a href="tel:+7 (995) 112-6679" class="contacts__col__item__main">
+                                <img src="img/phone.svg" alt="" class="contacts__col__item__main__icon">
+                                <div class="contacts__col__item__main__title">+7 (995) 112-6679</div>
+                            </a>
+                            <div class="contacts__col__item__desc">отдел продаж</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contacts__col">
+                    <div class="contacts__col__items">
+                        <div class="contacts__col__item">
+                            <div class="contacts__col__item__label">E-mail:</div>
+                            <a href="mailto:info@versal-reklama.ru" class="contacts__col__item__main">
+                                <img src="img/email.svg" alt="" class="contacts__col__item__main__icon">
+                                <div class="contacts__col__item__main__title">info@versal-reklama.ru</div>
+                            </a>
+                            <div class="contacts__col__item__desc">отдел продаж</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contacts__col">
+                    <div class="contacts__col__items">
+                        <div class="contacts__col__item">
+                            <div class="contacts__col__item__label">Адрес:</div>
+                            <div class="contacts__col__item__main">
+                                <img src="img/loc.svg" alt="" class="contacts__col__item__main__icon">
+                                <div class="contacts__col__item__main__title">Г. Москва Варшавское шоссе д. 125 к 3</div>
+                            </div>
+                            <div class="contacts__col__item__desc">c 9:00 до 18:00 без выходных</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ================================= map ============================= -->
+<section class="map" id="contacts__map"></section>
+<!-- ================================= END map ============================= -->
+
+{% endblock %}

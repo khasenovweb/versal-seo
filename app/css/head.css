@@ -1,0 +1,200 @@
+.head {
+  box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.1);
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  background-color: #fff;
+}
+.head__logo {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.head__logo__desc {
+  margin-left: 20px;
+  font-weight: normal;
+  font-size: 12px;
+  color: rgba(51, 51, 51, 0.63);
+}
+.head__top {
+  padding: 15px 0;
+  border-bottom: 1px solid #e6e6e6;
+}
+.head__top__content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.head__contacts {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+          align-items: flex-start;
+}
+.head__contact {
+  color: #333333;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+          align-items: flex-end;
+}
+.head__contact.phone {
+  margin-left: 74px;
+}
+.head__contact.phone .head__contact__title {
+  font-weight: 500;
+  font-size: 20px;
+}
+.head__contact__bottom {
+  font-weight: normal;
+  font-size: 11px;
+  color: #808080;
+  margin-top: 6px;
+}
+.head__contact__top {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.head__contact__icon {
+  margin-right: 14px;
+}
+.head__contact__title {
+  font-weight: normal;
+  font-size: 16px;
+}
+.head__bottom__content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.head__bottom__nav {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  margin-left: -20px;
+}
+.head__bottom__nav__link {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  color: #333333;
+  padding: 20px 20px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 14px;
+  position: relative;
+}
+.head__bottom__nav__link:hover {
+  color: #F53344;
+}
+.head__bottom__nav__link:hover .head__bottom__nav__link__submenu {
+  display: block;
+}
+.head__bottom__nav__link__submenu {
+  list-style: none;
+  position: absolute;
+  z-index: 1;
+  top: 55px;
+  left: 20px;
+  background-color: #fff;
+  box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.1);
+  border-bottom: 4px solid #F53344;
+  width: -webkit-max-content;
+  width: max-content;
+  display: none;
+}
+.head__bottom__nav__link__submenu li:first-child a {
+  padding-top: 24px;
+}
+.head__bottom__nav__link__submenu li:last-child a {
+  padding-bottom: 24px;
+}
+.head__bottom__nav__link__submenu a {
+  padding: 15px 30px;
+  display: block;
+  color: #333333;
+}
+.head__bottom__nav__link__submenu a:hover {
+  color: #F53344;
+}
+.head__bottom__nav__link__title {
+  margin: 0 20px;
+}
+.head__bottom__btns {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.head__hamburger {
+  width: 60px;
+  height: 60px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-image: url(../img/hamburger.svg);
+  margin-right: -20px;
+  display: none;
+}
+@media screen and (max-width: 1000px) {
+  .head__hamburger {
+    display: block;
+  }
+  .head__contacts {
+    display: none;
+  }
+  .head__bottom {
+    display: none;
+  }
+  .mobile__btns {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+  }
+}
+@media screen and (max-width: 500px) {
+  .head__logo__img img {
+    width: 100px;
+  }
+  .head__top {
+    padding: 0;
+  }
+}
+@media screen and (max-width: 380px) {
+  .head__logo__desc {
+    display: none;
+  }
+}

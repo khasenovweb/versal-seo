@@ -1,0 +1,369 @@
+{% set title = 'Главная' %}
+
+{% extends 'layouts/_main.html' %}
+
+{% block content %}
+
+<!-- ================================= hero ============================= -->
+<section class="hero" style="background-image: url(img/hero.jpg);">
+    <img src="img/hero_left.svg" alt="" class="hero__abstraction__left">
+    <img src="img/hero_right.svg" alt="" class="hero__abstraction__right">
+    <div class="container">
+        <div class="hero__content">
+            <div class="hero__title__before">в Москве и МО</div>
+            <h1 class="hero__title">
+                Производство <br> 
+                наружной рекламы 
+            </h1>
+            <ul class="hero__list">
+                <li class="hero__list__item">
+                    <img src="img/check.svg" alt="" class="hero__list__item__icon">
+                    <div class="hero__list__item__title">гарантия до 5 лет</div>
+                </li>
+                <li class="hero__list__item">
+                    <img src="img/check.svg" alt="" class="hero__list__item__icon">
+                    <div class="hero__list__item__title">выезд на замер бесплатно</div>
+                </li>
+                <li class="hero__list__item">
+                    <img src="img/check.svg" alt="" class="hero__list__item__icon">
+                    <div class="hero__list__item__title">макет-привязка бесплатно</div>
+                </li>
+            </ul>
+            <div class="hero__desc">
+                Есть вопросы по <span class="red">стоимости и срокам</span> изготовления? <br>
+                Оставьте заявку и наш специалист расчитает стоимость и сроки изготовления!
+            </div>
+            <div class="hero__btns">
+                <a href="" class="btn">
+                    <div class="btn__icon">
+                        <img src="img/btn_calc.svg" alt="">
+                    </div>
+                    <div class="btn__text">Получить расчет стоимости</div>
+                </a>
+            </div>
+                
+        </div>
+    </div>
+</section>
+<!-- ================================= END hero ============================= -->
+<!-- ================================= catalog ============================= -->
+<section class="catalog sec white">
+    <div class="container">
+        <h2 class="sec__title">Производим все виды <span class="red">наружной рекламы</span></h2>
+        <p class="sec__desc">Сделаем замер, нарисуем макет-приязку, изготовим вывеску и сделаем можтаж</p>
+        <div class="catalog__items">
+            <a href="/" class="catalog__item" style="background-image: url(img/catalog_item.jpg);">
+                <div class="catalog__item__title">Объемные  буквы</div>
+                <div class="catalog__item__price">от 70 руб/см</div>
+            </a>
+            <a href="/" class="catalog__item" style="background-image: url(img/catalog_item.jpg);">
+                <div class="catalog__item__title">Объемные  буквы</div>
+                <div class="catalog__item__price">от 70 руб/см</div>
+            </a>
+            <a href="/" class="catalog__item" style="background-image: url(img/catalog_item.jpg);">
+                <div class="catalog__item__title">Объемные  буквы</div>
+                <div class="catalog__item__price">от 70 руб/см</div>
+            </a>
+            <a href="/" class="catalog__item" style="background-image: url(img/catalog_item.jpg);">
+                <div class="catalog__item__title">Объемные  буквы</div>
+                <div class="catalog__item__price">от 70 руб/см</div>
+            </a>
+            <a href="/" class="catalog__item" style="background-image: url(img/catalog_item.jpg);">
+                <div class="catalog__item__title">Объемные  буквы</div>
+                <div class="catalog__item__price">от 70 руб/см</div>
+            </a>
+            <a href="/" class="catalog__item" style="background-image: url(img/catalog_item.jpg);">
+                <div class="catalog__item__title">Объемные  буквы</div>
+                <div class="catalog__item__price">от 70 руб/см</div>
+            </a>
+            <a href="/" class="catalog__item" style="background-image: url(img/catalog_item.jpg);">
+                <div class="catalog__item__title">Объемные  буквы</div>
+                <div class="catalog__item__price">от 70 руб/см</div>
+            </a>
+            <a href="/" class="catalog__item" style="background-image: url(img/catalog_item.jpg);">
+                <div class="catalog__item__title">Объемные  буквы</div>
+                <div class="catalog__item__price">от 70 руб/см</div>
+            </a>
+        </div>
+    </div>
+</section>
+<!-- ================================= END catalog ============================= -->
+<!-- ================================= portfolio  ============================= -->
+<section class="portfolio sec gray">
+    <div class="container">
+        <div class="portfolio__content">
+            <h2 class="sec__title">Наши готовые работы</h2>
+            <div class="portfolio__items">
+                <!-- portfolio__item -->
+                <div class="portfolio__item">
+                    <div class="portfolio__item__info">
+                        <div class="portfolio__item__info__col">
+                            <div class="portfolio__item__info__col__label">Компания:</div>
+                            <div class="portfolio__item__info__col__val">« RIVER ONE »</div>
+                        </div>
+                        <div class="portfolio__item__info__col">
+                            <div class="portfolio__item__info__col__label">Тип вывески:</div>
+                            <div class="portfolio__item__info__col__val">Оформление сети lounge bar</div>
+                        </div>
+                        <div class="portfolio__item__info__col">
+                            <div class="portfolio__item__info__col__label">Срок изготовления:</div>
+                            <div class="portfolio__item__info__col__val red">7 дней</div>
+                        </div>
+                        <div class="portfolio__item__info__col">
+                            <div class="portfolio__item__info__col__label">Стоимость:</div>
+                            <div class="portfolio__item__info__col__val red underline">Узнать</div>
+                        </div>
+                    </div>
+                    <div class="portfolio__item__photos">
+                        <a href="" class="portfolio__item__photo" style="background-image: url(img/1.jpg);"></a>
+                        <a href="" class="portfolio__item__photo" style="background-image: url(img/2.jpg);"></a>
+                        <a href="" class="portfolio__item__photo" style="background-image: url(img/3.jpg);"></a>
+                        <a href="" class="portfolio__item__photo" style="background-image: url(img/4.jpg);"></a>
+                        <a href="" class="portfolio__item__photo" style="background-image: url(img/5.jpg);"></a>
+                        <a href="" class="portfolio__item__photo" style="background-image: url(img/6.jpg);"></a>
+                    </div>
+                    <div class="portfolio__item__footer">
+                        <div class="portfolio__item__footer__link">Хочу подобную вывеску</div>
+                    </div>
+                </div>
+                <!-- END portfolio__item -->
+                <!-- portfolio__item -->
+                <div class="portfolio__item">
+                    <div class="portfolio__item__info">
+                        <div class="portfolio__item__info__col">
+                            <div class="portfolio__item__info__col__label">Компания:</div>
+                            <div class="portfolio__item__info__col__val">« RIVER ONE »</div>
+                        </div>
+                        <div class="portfolio__item__info__col">
+                            <div class="portfolio__item__info__col__label">Тип вывески:</div>
+                            <div class="portfolio__item__info__col__val">Оформление сети lounge bar</div>
+                        </div>
+                        <div class="portfolio__item__info__col">
+                            <div class="portfolio__item__info__col__label">Срок изготовления:</div>
+                            <div class="portfolio__item__info__col__val red">7 дней</div>
+                        </div>
+                        <div class="portfolio__item__info__col">
+                            <div class="portfolio__item__info__col__label">Стоимость:</div>
+                            <div class="portfolio__item__info__col__val red underline">Узнать</div>
+                        </div>
+                    </div>
+                    <div class="portfolio__item__photos">
+                        <a href="" class="portfolio__item__photo" style="background-image: url(img/1.jpg);"></a>
+                        <a href="" class="portfolio__item__photo" style="background-image: url(img/2.jpg);"></a>
+                        <a href="" class="portfolio__item__photo" style="background-image: url(img/3.jpg);"></a>
+                        <a href="" class="portfolio__item__photo" style="background-image: url(img/4.jpg);"></a>
+                        <a href="" class="portfolio__item__photo" style="background-image: url(img/5.jpg);"></a>
+                        <a href="" class="portfolio__item__photo" style="background-image: url(img/6.jpg);"></a>
+                    </div>
+                    <div class="portfolio__item__footer">
+                        <div class="portfolio__item__footer__link">Хочу подобную вывеску</div>
+                    </div>
+                </div>
+                <!-- END portfolio__item -->
+            </div>
+            <div class="portfolio__btns">
+                <a href="" class="btn__no__icon">Посмотреть все работы</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ================================= END portfolio ============================= -->
+<!-- ================================= preims ============================= -->
+<section class="sec white preims">
+    <div class="container">
+        <div class="preims__cotent">
+            <h2 class="sec__title">Почему мы?</h2>
+            <p class="sec__desc">Почему заказывать <span class="red">изготовление наружной рекламы</span> нужно у нас?</p>
+            <div class="preims__items">
+                <!-- preims__item -->
+                <div class="preims__item">
+                    <div class="preims__item__head">
+                        <div class="preims__item__icon" style="background-image: url(img/preim-1.svg);"></div>
+                        <div class="preims__item__title">
+                            Собственное <br>
+                            производство 
+                        </div>
+                    </div>
+                    <div class="preims__item__desc">
+                        Собственное производство наружной рекламы на современном оборудовании
+                    </div>
+                </div>
+                <!-- END preims__item -->
+                <!-- preims__item -->
+                <div class="preims__item">
+                    <div class="preims__item__head">
+                        <div class="preims__item__icon" style="background-image: url(img/preim-2.svg);"></div>
+                        <div class="preims__item__title">
+                            Круглосуточное <br> 
+                            производство 
+                        </div>
+                    </div>
+                    <div class="preims__item__desc">
+                        Круглосуточное производство рекламы 24/7. Готовность выполнить любую задачу клиента в срок.
+                    </div>
+                </div>
+                <!-- END preims__item -->
+                <!-- preims__item -->
+                <div class="preims__item">
+                    <div class="preims__item__head">
+                        <div class="preims__item__icon" style="background-image: url(img/preim-3.svg);"></div>
+                        <div class="preims__item__title">
+                            Мастера <br> 
+                            своего дела
+                        </div>
+                    </div>
+                    <div class="preims__item__desc">
+                        Сотрудники нашей рекламной компании специалисты своего дела с большим опытом работы.
+                    </div>
+                </div>
+                <!-- END preims__item -->
+                <!-- preims__item -->
+                <div class="preims__item">
+                    <div class="preims__item__head">
+                        <div class="preims__item__icon" style="background-image: url(img/preim-4.svg);"></div>
+                        <div class="preims__item__title">
+                            Гарантийное <br> 
+                            обслуживание
+                        </div>
+                    </div>
+                    <div class="preims__item__desc">
+                        Гарантийное обслуживание в течение 24 месяцев. Индивидуальный подход!
+                    </div>
+                </div>
+                <!-- END preims__item -->
+                <!-- preims__item -->
+                <div class="preims__item">
+                    <div class="preims__item__head">
+                        <div class="preims__item__icon" style="background-image: url(img/preim-5.svg);"></div>
+                        <div class="preims__item__title">
+                            Комплексное  <br> 
+                            оформление
+                        </div>
+                    </div>
+                    <div class="preims__item__desc">
+                        Комплексное оформление торговых площадей с ремонтом помещений и ведение до самого открытия.
+                    </div>
+                </div>
+                <!-- END preims__item -->
+                <!-- preims__item -->
+                <div class="preims__item">
+                    <div class="preims__item__head">
+                        <div class="preims__item__icon" style="background-image: url(img/preim-6.svg);"></div>
+                        <div class="preims__item__title">
+                            Сроки   <br> 
+                            производства
+                        </div>
+                    </div>
+                    <div class="preims__item__desc">
+                        Сроки производства рекламных конструкций от 3х рабочих дней
+                    </div>
+                </div>
+                <!-- END preims__item -->
+                <!-- preims__item -->
+                <div class="preims__item">
+                    <div class="preims__item__head">
+                        <div class="preims__item__icon" style="background-image: url(img/preim-7.svg);"></div>
+                        <div class="preims__item__title">
+                            Гарантия    <br> 
+                            лучшей цены
+                        </div>
+                    </div>
+                    <div class="preims__item__desc">
+                        Гарантия лучшей цены на рекламу, нашли дешевле - звоните договоримся!
+                    </div>
+                </div>
+                <!-- END preims__item -->
+                <!-- preims__item -->
+                <div class="preims__item">
+                    <div class="preims__item__head">
+                        <div class="preims__item__icon" style="background-image: url(img/preim-8.svg);"></div>
+                        <div class="preims__item__title">
+                            Бесплатный <br> 
+                            выезд специалиста
+                        </div>
+                    </div>
+                    <div class="preims__item__desc">
+                        Бесплатный выезд специалиста на объект и проведение всех необходимых замеров
+                    </div>
+                </div>
+                <!-- END preims__item -->
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ================================= END preims ============================= -->
+<!-- ================================= logos ============================= -->
+<section class="sec logos gray">
+    <div class="container">
+        <div class="logos__content">
+            <h2 class="sec__title">Нам доверяют</h2>
+            <div class="logos__items">
+                <div class="logos__item" style="background-image: url(img/logo-1.png)"></div>
+                <div class="logos__item" style="background-image: url(img/logo-2.png)"></div>
+                <div class="logos__item" style="background-image: url(img/logo-3.png)"></div>
+                <div class="logos__item" style="background-image: url(img/logo-4.png)"></div>
+                <div class="logos__item" style="background-image: url(img/logo-5.png)"></div>
+                <div class="logos__item" style="background-image: url(img/logo-6.png)"></div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ================================= END logos ============================= -->
+<!-- ================================= contacts ============================= -->
+<section class="sec contacts white">
+    <div class="container">
+        <div class="contacts__content">
+            <h2 class="sec__title">Контакты</h2>
+            <div class="contacts__cols">
+                <div class="contacts__col">
+                    <div class="contacts__col__items">
+                        <div class="contacts__col__item">
+                            <div class="contacts__col__item__label">Телефон:</div>
+                            <a href="tel:+7 (995) 112-6679" class="contacts__col__item__main">
+                                <img src="img/phone.svg" alt="" class="contacts__col__item__main__icon">
+                                <div class="contacts__col__item__main__title">+7 (995) 112-6679</div>
+                            </a>
+                            <div class="contacts__col__item__desc">отдел продаж</div>
+                            <a href="tel:+7 (995) 112-6679" class="contacts__col__item__main">
+                                <img src="img/phone.svg" alt="" class="contacts__col__item__main__icon">
+                                <div class="contacts__col__item__main__title">+7 (995) 112-6679</div>
+                            </a>
+                            <div class="contacts__col__item__desc">отдел продаж</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contacts__col">
+                    <div class="contacts__col__items">
+                        <div class="contacts__col__item">
+                            <div class="contacts__col__item__label">E-mail:</div>
+                            <a href="mailto:info@versal-reklama.ru" class="contacts__col__item__main">
+                                <img src="img/email.svg" alt="" class="contacts__col__item__main__icon">
+                                <div class="contacts__col__item__main__title">info@versal-reklama.ru</div>
+                            </a>
+                            <div class="contacts__col__item__desc">отдел продаж</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contacts__col">
+                    <div class="contacts__col__items">
+                        <div class="contacts__col__item">
+                            <div class="contacts__col__item__label">Адрес:</div>
+                            <div class="contacts__col__item__main">
+                                <img src="img/loc.svg" alt="" class="contacts__col__item__main__icon">
+                                <div class="contacts__col__item__main__title">Г. Москва Варшавское шоссе д. 125 к 3</div>
+                            </div>
+                            <div class="contacts__col__item__desc">c 9:00 до 18:00 без выходных</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ================================= END contacts ============================= -->
+<!-- ================================= map ============================= -->
+<section class="map" id="contacts__map"></section>
+<!-- ================================= END map ============================= -->
+
+
+{% endblock %}
